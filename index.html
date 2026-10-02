@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Aishwarya Kolhapuri Masale - Authentic Kolhapuri Kanda Lasun Masala, Garam Masala, Tambda Rassa Masala & Traditional Spices. 100% Natural, Traditional Stone Pounded.">
+  <meta name="keywords"
+    content="Kolhapuri Masala, Kanda Lasun Masala, Aishwarya Masale, Tambda Rassa Masala, Indian Spices, Kolhapur Special Spice, Red Chili Powder, Traditional Dankyi Masala">
+  <meta name="author" content="Aishwarya Kolhapuri Masale Pvt. Ltd.">
+  <title>Aishwarya Masale | Authentic Kolhapuri Taste & Traditional Spices</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+
+  <!-- ==========================================================================
+       1. NAVBAR
+       ========================================================================== -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <div class="brand-logo-icon">
+          <i class="fas fa-pepper-hot"></i>
+        </div>
+        <div>
+          <div class="brand-name">Aishwarya</div>
+          <div class="brand-subtitle">Kolhapuri Masale</div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars fs-3 text-dark"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2 mt-3 mt-lg-0">
+          <a href="tel:+919876543210" class="btn btn-outline-crimson nav-call-btn">
+            <i class="fas fa-phone-alt me-1"></i> Call Now
+          </a>
+          <button class="btn btn-crimson nav-inquiry-btn" onclick="openEnquiryModal()">
+            <i class="fas fa-paper-plane me-1"></i> Quick Enquiry
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       2. HERO SECTION ("Authentic Kolhapuri Taste")
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="container position-relative z-2">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+          <div class="hero-tag">
+            <i class="fas fa-fire-flame-curved"></i> 100% Traditional Recipe
+          </div>
+          <h1 class="hero-title">
+            Authentic <span>Kolhapuri Taste</span> In Every Spoon
+          </h1>
+          <p class="hero-desc">
+            Experience the rich heritage of handcrafted, stone-pounded Maharashtrian spices. Prepared using secret
+            family recipes, sun-dried chilies, and 100% pure ingredients for unmatchable hotel-style aroma and tari.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 align-items-center mb-4">
+            <a href="#products" class="btn btn-gold btn-lg">
+              <i class="fas fa-store"></i> Explore Masale
+            </a>
+            <a href="tel:+919876543210" class="btn btn-crimson btn-lg">
+              <i class="fas fa-phone-alt"></i> Call Us: +91 98765 43210
+            </a>
+          </div>
+
+          <div class="d-flex align-items-center gap-4 pt-3 border-top border-secondary border-opacity-25">
+            <div>
+              <div class="fs-3 fw-bold text-warning font-heading">30+ Years</div>
+              <div class="small text-light text-opacity-75">Heritage Legacy</div>
+            </div>
+            <div class="vr bg-light opacity-25"></div>
+            <div>
+              <div class="fs-3 fw-bold text-warning font-heading">50,000+</div>
+              <div class="small text-light text-opacity-75">Happy Kitchens</div>
+            </div>
+            <div class="vr bg-light opacity-25"></div>
+            <div>
+              <div class="fs-3 fw-bold text-warning font-heading">100% Pure</div>
+              <div class="small text-light text-opacity-75">No Preservatives</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <div class="hero-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1000&q=85"
+              alt="Aishwarya Authentic Kolhapuri Spices" class="hero-img"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1000&q=85';">
+
+            <div class="floating-card-1">
+              <i class="fas fa-award text-warning fs-3"></i>
+              <div>
+                <div class="fw-bold small">Authentic Danka Masala</div>
+                <div class="small text-white-50">Traditional Stone Pounded</div>
+              </div>
+            </div>
+
+            <div class="floating-card-2">
+              <i class="fas fa-pepper-hot text-light fs-2"></i>
+              <div>
+                <div class="fw-bold">Famous Kanda Lasun</div>
+                <div class="small text-white-75">Original Kolhapuri Flavor</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. ABOUT AISHWARYA
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-img-box">
+            <img src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1000&q=85"
+              alt="About Aishwarya Masale Crafting"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1000&q=85';">
+            <div class="experience-badge">
+              <div class="years">30+</div>
+              <div class="small text-uppercase fw-bold">Years of Trust & Flavor</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="section-badge">
+            <i class="fas fa-utensils"></i> Heritage & Tradition
+          </div>
+          <h2 class="section-title">About Aishwarya Kolhapuri Masale</h2>
+          <p class="text-muted mb-4 lead">
+            Rooted in the heart of Kolhapur, Aishwarya Masale brings you the true essence of traditional Maharashtrian
+            culinary culture.
+          </p>
+          <p class="text-secondary mb-4">
+            Founded with a passion for preserving ancestral spice formulations, our masalas are crafted using sun-dried
+            premium Sankeshwari and Lavangi red chilies, slow-roasted whole spices, and the age-old **Dankyi (stone
+            pounded)** method. This preserves natural essential oils, releasing an irresistible aroma and rich red color
+            in every dish.
+          </p>
+
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="feature-check-item">
+                <div class="feature-check-icon"><i class="fas fa-check"></i></div>
+                <div>
+                  <h6 class="mb-1 fw-bold">Authentic Family Recipe</h6>
+                  <p class="small text-muted mb-0">Passed down through generations for exact spice balance.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="feature-check-item">
+                <div class="feature-check-icon"><i class="fas fa-check"></i></div>
+                <div>
+                  <h6 class="mb-1 fw-bold">Slow Wood Fire Roasting</h6>
+                  <p class="small text-muted mb-0">Enhances natural aroma and shelf life naturally.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="feature-check-item">
+                <div class="feature-check-icon"><i class="fas fa-check"></i></div>
+                <div>
+                  <h6 class="mb-1 fw-bold">Zero Chemicals & Dyes</h6>
+                  <p class="small text-muted mb-0">No added red color or artificial chemical flavors.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="feature-check-item">
+                <div class="feature-check-icon"><i class="fas fa-check"></i></div>
+                <div>
+                  <h6 class="mb-1 fw-bold">Hygienic Batch Packing</h6>
+                  <p class="small text-muted mb-0">Sealed immediately after pounding for maximum freshness.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="tel:+919876543210" class="btn btn-crimson">
+              <i class="fas fa-phone-alt"></i> Call For Orders: +91 98765 43210
+            </a>
+            <button class="btn btn-outline-crimson" onclick="openEnquiryModal()">
+              <i class="fas fa-handshake"></i> Partner With Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. WHY CHOOSE US
+       ========================================================================== -->
+  <section class="why-us-section" id="why-choose-us">
+    <div class="container">
+      <div class="text-center max-w-700 mx-auto mb-5" data-aos="fade-up">
+        <div class="section-badge">
+          <i class="fas fa-star"></i> Our Distinctive Excellence
+        </div>
+        <h2 class="section-title">Why Choose Aishwarya Masale?</h2>
+        <p class="text-muted">We don't compromise on purity, process, or passion. Here is what sets our spices apart
+          from commercial brands.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Feature 1 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="fas fa-sun"></i>
+            </div>
+            <h5 class="fw-bold mb-3">100% Sun-Dried Chilies</h5>
+            <p class="text-muted small mb-0">We use top-tier Sankeshwari and Byadgi chilies naturally dried under the
+              sun for maximum color retention and fiery kick.</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="fas fa-mortar-pestle"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Stone Pounded (Danka)</h5>
+            <p class="text-muted small mb-0">Traditional pounding avoids high heat generation during milling, preserving
+              heat-sensitive essential spice oils.</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="fas fa-shield-virus"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Zero Preservatives</h5>
+            <p class="text-muted small mb-0">Free from MSG, synthetic colorants, starch fillers, or anti-caking agents.
+              100% wholesome pure spice powders.</p>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <i class="fas fa-fire"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Hotel-Style Red Tari</h5>
+            <p class="text-muted small mb-0">Achieve authentic spicy Kolhapuri hotel curry red oil float (Tari) right at
+              home with minimal effort.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. PRODUCT CATEGORIES
+       ========================================================================== -->
+  <section class="category-section" id="categories">
+    <div class="container">
+      <div class="text-center max-w-700 mx-auto mb-4" data-aos="fade-up">
+        <div class="section-badge">
+          <i class="fas fa-layer-group"></i> Range of Spice Blends
+        </div>
+        <h2 class="section-title">Explore Product Categories</h2>
+        <p class="text-muted">From iconic Kanda Lasun Masala to non-veg specials and regional chutneys.</p>
+      </div>
+
+      <!-- Filter Nav Pills -->
+      <div class="category-nav-pills" data-aos="fade-up">
+        <button class="category-pill-btn active" data-category="all">All Products</button>
+        <button class="category-pill-btn" data-category="kolhapuri-specials">Kolhapuri Specials</button>
+        <button class="category-pill-btn" data-category="everyday-spices">Everyday Spices</button>
+        <button class="category-pill-btn" data-category="nonveg-gravy">Non-Veg Gravy Spices</button>
+        <button class="category-pill-btn" data-category="chutneys">Chutneys & Thecha</button>
+      </div>
+
+      <!-- Category Visual Cards Row -->
+      <div class="row g-4 mt-2">
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="category-card" onclick="filterByCategory('kolhapuri-specials')">
+            <img src="https://images.unsplash.com/photo-1628773822503-936a5367097e?auto=format&fit=crop&w=800&q=85"
+              alt="Kolhapuri Special Masale"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=85';">
+            <div class="category-overlay">
+              <div class="category-title">Kolhapuri Specials</div>
+              <div class="category-count">Kanda Lasun & Traditional Blends <i class="fas fa-arrow-right ms-1"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="category-card" onclick="filterByCategory('nonveg-gravy')">
+            <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=85"
+              alt="Non Veg Gravy Spices"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=85';">
+            <div class="category-overlay">
+              <div class="category-title">Non-Veg Gravy Spices</div>
+              <div class="category-count">Tambda Rassa & Mutton Specials <i class="fas fa-arrow-right ms-1"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="category-card" onclick="filterByCategory('chutneys')">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=85"
+              alt="Chutneys and Thecha"
+              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=85';">
+            <div class="category-overlay">
+              <div class="category-title">Chutneys & Mirchi Thecha</div>
+              <div class="category-count">Hand-pounded Kolhapuri Side Dishes <i class="fas fa-arrow-right ms-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. FEATURED PRODUCTS
+       ========================================================================== -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-between mb-4" data-aos="fade-up">
+        <div>
+          <div class="section-badge">
+            <i class="fas fa-box-open"></i> Premium Spice Collection
+          </div>
+          <h2 class="section-title mb-0">Featured Products</h2>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="mt-3 mt-md-0 position-relative style-search" style="min-width: 280px;">
+          <input type="text" id="product-search-input" class="form-control ps-4 pe-5 rounded-pill shadow-sm"
+            placeholder="Search masala or spice...">
+          <i class="fas fa-search position-absolute top-50 end-0 translate-middle-y me-3 text-muted"></i>
+        </div>
+      </div>
+
+      <!-- Dynamic Products Grid populated by JS -->
+      <div class="row g-4" id="products-grid">
+        <!-- 1. Kanda Lasun Masala -->
+        <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1628773822503-936a5367097e?auto=format&fit=crop&w=800&q=85"
+                alt="Authentic Kolhapuri Kanda Lasun Masala" loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=85';">
+              <span class="spice-heat-tag">🌶️🌶️🌶️🌶️🌶️ Heat</span>
+              <span class="product-badge-bestseller"><i class="fas fa-crown me-1"></i> Bestseller</span>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Authentic Kolhapuri Kanda Lasun Masala</h5>
+              <p class="product-desc">The iconic traditional Kolhapuri Onion Garlic spice mix pounded using authentic
+                heritage recipe. Gives rich red tari, fiery aroma, and unmatched flavor.</p>
+              <div class="product-meta">
+                <span class="product-weight">500g Pack</span>
+                <div class="product-price">₹140 <small>₹160</small></div>
+              </div>
+              <div class="product-actions">
+                <button class="btn-quick-inquiry" onclick="openEnquiryModal('kanda-lasun-masala')">
+                  <i class="fas fa-envelope me-1"></i> Order
+                </button>
+                <a href="tel:+919876543210" class="btn-call-product" title="Call Now to Order">
+                  <i class="fas fa-phone-alt"></i>
+                </a>
+                <button class="btn-quick-view" onclick="openQuickViewModal('kanda-lasun-masala')" title="Quick View">
+                  <i class="fas fa-eye"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Royal Garam Masala -->
+        <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=800&q=85"
+                alt="Aishwarya Royal Garam Masala" loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=85';">
+              <span class="spice-heat-tag">🌶️🌶️🌶️🌶️ Heat</span>
+              <span class="product-badge-bestseller"><i class="fas fa-crown me-1"></i> Bestseller</span>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Aishwarya Royal Garam Masala</h5>
+              <p class="product-desc">Artisanal blend of 24 sun-dried whole spices roasted over slow wood flame.
+                Essential for biryani and royal Maharashtrian gravies.</p>
+              <div class="product-meta">
+                <span class="product-weight">250g Pack</span>
+                <div class="product-price">₹180 <small>₹200</small></div>
+              </div>
+              <div class="product-actions">
+                <button class="btn-quick-inquiry" onclick="openEnquiryModal('special-garam-masala')">
+                  <i class="fas fa-envelope me-1"></i> Order
+                </button>
+                <a href="tel:+919876543210" class="btn-call-product" title="Call Now to Order">
+                  <i class="fas fa-phone-alt"></i>
+                </a>
+                <button class="btn-quick-view" onclick="openQuickViewModal('special-garam-masala')" title="Quick View">
+                  <i class="fas fa-eye"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Tambda Rassa Masala -->
+        <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=85"
+                alt="Special Tambda Rassa Masala" loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=85';">
+              <span class="spice-heat-tag">🌶️🌶️🌶️🌶️🌶️ Heat</span>
+              <span class="product-badge-bestseller"><i class="fas fa-crown me-1"></i> Bestseller</span>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Special Tambda Rassa Masala</h5>
+              <p class="product-desc">Special formulation for making genuine Kolhapuri hotel-style Tambda Rassa.
+                Unbeatable red color, tari float, and bold aroma.</p>
+              <div class="product-meta">
+                <span class="product-weight">500g Pack</span>
+                <div class="product-price">₹195 <small>₹220</small></div>
+              </div>
+              <div class="product-actions">
+                <button class="btn-quick-inquiry" onclick="openEnquiryModal('tambda-rassa-masala')">
+                  <i class="fas fa-envelope me-1"></i> Order
+                </button>
+                <a href="tel:+919876543210" class="btn-call-product" title="Call Now to Order">
+                  <i class="fas fa-phone-alt"></i>
+                </a>
+                <button class="btn-quick-view" onclick="openQuickViewModal('tambda-rassa-masala')" title="Quick View">
+                  <i class="fas fa-eye"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Pure Sankeshwari Chili Powder -->
+        <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="product-card">
+            <div class="product-img-box">
+              <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=800&q=85"
+                alt="Pure Sankeshwari Red Chili Powder" loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=85';">
+              <span class="spice-heat-tag">🌶️🌶️🌶️🌶️ Heat</span>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title">Pure Sankeshwari Red Chili Powder</h5>
+              <p class="product-desc">100% natural, deep crimson Sankeshwari chilies sourced directly from Kolhapuri
+                farms. Delivers vibrant red natural color.</p>
+              <div class="product-meta">
+                <span class="product-weight">500g Pack</span>
+                <div class="product-price">₹160 <small>₹175</small></div>
+              </div>
+              <div class="product-actions">
+                <button class="btn-quick-inquiry" onclick="openEnquiryModal('sankeshwari-chili-powder')">
+                  <i class="fas fa-envelope me-1"></i> Order
+                </button>
+                <a href="tel:+919876543210" class="btn-call-product" title="Call Now to Order">
+                  <i class="fas fa-phone-alt"></i>
+                </a>
+                <button class="btn-quick-view" onclick="openQuickViewModal('sankeshwari-chili-powder')"
+                  title="Quick View">
+                  <i class="fas fa-eye"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. TRADITIONAL TASTE BANNER
+       ========================================================================== -->
+  <section class="traditional-banner-section" id="banner">
+    <div class="container position-relative z-2" data-aos="zoom-in">
+      <span class="banner-badge"><i class="fas fa-pepper-hot me-1"></i> Flame & Taste Guarantee</span>
+      <h2 class="banner-heading">Bring <span>Hotel-Style Kolhapuri Tari</span> To Your Home Kitchen</h2>
+      <p class="banner-text">
+        Whether it's Misal Pav, Chicken Sukka, Tambda Rassa, or Veg Kolhapuri curry — Aishwarya Masale ensures exact
+        spicy color, rich consistency, and authentic Kolhapuri warmth in every pinch.
+      </p>
+
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <button class="btn btn-gold btn-lg" onclick="openEnquiryModal()">
+          <i class="fas fa-shopping-cart"></i> Order Fresh Batch Pack
+        </button>
+        <a href="tel:+919876543210" class="btn btn-crimson btn-lg">
+          <i class="fas fa-phone-alt me-1"></i> Call Us: +91 98765 43210
+        </a>
+      </div>
+
+      <div class="banner-pill-list">
+        <span class="banner-pill"><i class="fas fa-leaf text-warning me-1"></i> Sankeshwari Red Chilies</span>
+        <span class="banner-pill"><i class="fas fa-fire text-danger me-1"></i> Garlic & Roasted Onions</span>
+        <span class="banner-pill"><i class="fas fa-seedling text-warning me-1"></i> Black Cardamom & Mace</span>
+        <span class="banner-pill"><i class="fas fa-mortar-pestle text-info me-1"></i> Stone Pounded Tech</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. OUR PROMISE
+       ========================================================================== -->
+  <section class="promise-section" id="promise">
+    <div class="container">
+      <div class="text-center max-w-700 mx-auto mb-5" data-aos="fade-up">
+        <div class="section-badge">
+          <i class="fas fa-certificate"></i> Quality & Purity Assurance
+        </div>
+        <h2 class="section-title">Our Uncompromising Promise</h2>
+        <p class="text-muted fs-5">Every pouch of Aishwarya Masale carries our family honor and pledge for unadulterated
+          taste.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="promise-card">
+            <span class="promise-badge"><i class="fas fa-shield-alt me-1"></i> Lab Tested</span>
+            <div class="promise-icon-wrapper">
+              <i class="fas fa-check-double"></i>
+            </div>
+            <h5 class="fw-bold mb-2 font-heading">FSSAI Certified</h5>
+            <p class="text-muted small mb-0">Strict adherence to national food safety standards, lab-tested for heavy
+              metals and pesticide residue.</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="promise-card">
+            <span class="promise-badge"><i class="fas fa-leaf me-1"></i> Farm Fresh</span>
+            <div class="promise-icon-wrapper">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h5 class="fw-bold mb-2 font-heading">Direct Farm Sourcing</h5>
+            <p class="text-muted small mb-0">Sourced straight from trusted spice growers in Kolhapur & Sangli to ensure
+              top grade chilies.</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="promise-card">
+            <span class="promise-badge"><i class="fas fa-lock me-1"></i> Aroma Locked</span>
+            <div class="promise-icon-wrapper">
+              <i class="fas fa-box"></i>
+            </div>
+            <h5 class="fw-bold mb-2 font-heading">Triple Layer Pack</h5>
+            <p class="text-muted small mb-0">Moisture-proof aluminum foil packaging locks in essential aromatic oils for
+              over 12 months freshness.</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="promise-card">
+            <span class="promise-badge"><i class="fas fa-ban me-1"></i> 0% Chemicals</span>
+            <div class="promise-icon-wrapper">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h5 class="fw-bold mb-2 font-heading">Zero Synthetic Dyes</h5>
+            <p class="text-muted small mb-0">100% natural fiery red hue from premium Sankeshwari chilies without
+              artificial dyes or preservatives.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dynamic Counter Box -->
+      <div class="stat-counter-box" data-aos="zoom-in" data-aos-delay="200">
+        <div class="row text-center g-4">
+          <div class="col-md-3 col-6">
+            <div class="stat-icon"><i class="fas fa-history"></i></div>
+            <div class="stat-number"><span class="counter-val" data-target="30">0</span>+</div>
+            <div class="stat-label">Years Heritage</div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="stat-icon"><i class="fas fa-smile-beam"></i></div>
+            <div class="stat-number"><span class="counter-val" data-target="50">0</span>K+</div>
+            <div class="stat-label">Happy Families</div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="stat-icon"><i class="fas fa-store-alt"></i></div>
+            <div class="stat-number"><span class="counter-val" data-target="150">0</span>+</div>
+            <div class="stat-label">Retail Outlets</div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+            <div class="stat-number"><span class="counter-val" data-target="100">0</span>%</div>
+            <div class="stat-label">Pure & Authentic</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. ENQUIRY / CONTACT CTA WITH GOOGLE MAP
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="text-center max-w-700 mx-auto mb-5" data-aos="fade-up">
+        <div class="section-badge">
+          <i class="fas fa-envelope"></i> Get In Touch
+        </div>
+        <h2 class="section-title">Wholesale & Trade Enquiry</h2>
+        <p class="text-muted">Looking for bulk supply for restaurants, catering, dealership, or retail stock? We'd love
+          to partner with you.</p>
+      </div>
+
+      <div class="contact-card" data-aos="fade-up">
+        <div class="row g-0">
+          <div class="col-lg-5">
+            <div class="contact-info-panel">
+              <div>
+                <h3 class="font-heading mb-3">Reach Out To Us</h3>
+                <p class="text-white-75 mb-4">Visit our processing facility or request sample kits delivered directly to
+                  your business premises.</p>
+
+                <div class="contact-info-item">
+                  <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                  <div>
+                    <h6 class="fw-bold mb-1">Factory & Head Office</h6>
+                    <p class="small text-white-75 mb-0">Plot No. 42, MIDC Shiroli, Kolhapur, Maharashtra - 416122, India
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="contact-info-icon"><i class="fas fa-phone-alt"></i></div>
+                  <div>
+                    <h6 class="fw-bold mb-1">Phone / WhatsApp</h6>
+                    <p class="small mb-0">
+                      <a href="tel:+919876543210" class="text-warning fw-bold hover-underline me-2"><i
+                          class="fas fa-phone-volume me-1"></i> +91 98765 43210</a><br>
+                      <a href="tel:+919123456789" class="text-white-75 hover-underline">+91 91234 56789</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+                  <div>
+                    <h6 class="fw-bold mb-1">Email Enquiry</h6>
+                    <p class="small text-white-75 mb-0">sales@aishwaryamasale.com / info@aishwaryamasale.com</p>
+                  </div>
+                </div>
+
+                <div class="mt-4 pt-3 border-top border-light border-opacity-25">
+                  <a href="tel:+919876543210" class="btn btn-gold w-100 py-2">
+                    <i class="fas fa-headset me-2"></i> Direct Call Support
+                  </a>
+                </div>
+              </div>
+
+              <div class="pt-4 border-top border-light border-opacity-25 mt-4">
+                <div class="small fw-bold text-uppercase text-warning mb-2">Working Hours</div>
+                <div class="small text-white-75">Mon - Sat: 9:00 AM - 7:00 PM (IST)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form-panel">
+              <h4 class="font-heading mb-4 text-dark">Send Us A Message</h4>
+              <form id="main-contact-form">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold small">Full Name *</label>
+                    <input type="text" class="form-control" placeholder="e.g. Ramesh Patil" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold small">Phone / WhatsApp *</label>
+                    <input type="tel" class="form-control" placeholder="+91 9876543210" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold small">Email Address</label>
+                    <input type="email" class="form-control" placeholder="name@example.com">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold small">Enquiry Type *</label>
+                    <select class="form-select" required>
+                      <option value="" selected disabled>Select Type...</option>
+                      <option value="retail">Retail Purchase</option>
+                      <option value="wholesale">Wholesale / Bulk Catering</option>
+                      <option value="distributor">Distributorship / Dealership</option>
+                      <option value="sample">Request Sample Kit</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label fw-semibold small">Your Requirements / Message *</label>
+                    <textarea class="form-control" rows="4"
+                      placeholder="Tell us about required masalas, quantities, or city location..." required></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-crimson btn-lg w-100">
+                      <i class="fas fa-paper-plane me-2"></i> Submit Enquiry Now
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Maps Embed Section -->
+      <div class="google-map-wrapper mt-5" data-aos="fade-up">
+        <div class="map-container-card">
+          <div class="map-header">
+            <div class="d-flex align-items-center gap-2">
+              <i class="fas fa-map-marked-alt text-crimson fs-4"></i>
+              <div>
+                <h5 class="fw-bold mb-0 text-dark font-heading">Our Location Map</h5>
+                <span class="small text-muted">MIDC Shiroli, Kolhapur, Maharashtra 416122</span>
+              </div>
+            </div>
+            <a href="https://maps.google.com/?q=MIDC+Shiroli+Kolhapur" target="_blank"
+              class="btn btn-outline-crimson btn-sm rounded-pill">
+              <i class="fas fa-directions me-1"></i> Get Directions
+            </a>
+          </div>
+          <div class="map-iframe-box">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122281.3478945047!2d74.14553672131188!3d16.71226998019438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000cdec07a29%3A0xece8ea642952e42f!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1790930474022!5m2!1sen!2sin"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. FOOTER
+       ========================================================================== -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Brand Info -->
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-logo-icon">
+              <i class="fas fa-pepper-hot"></i>
+            </div>
+            <div>
+              <div class="brand-name text-white fs-4">Aishwarya</div>
+              <div class="brand-subtitle text-warning">Kolhapuri Masale</div>
+            </div>
+          </div>
+          <p class="small footer-text mb-4">
+            Aishwarya Kolhapuri Masale Private Limited is dedicated to bringing authentic stone-pounded traditional
+            spices, onion garlic masala, and regional delicacies straight from Kolhapur to every household across India.
+          </p>
+          <div>
+            <a href="#" class="social-icon-btn"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon-btn"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon-btn"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/919876543210" class="social-icon-btn"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#hero"><i class="fas fa-angle-right text-warning"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-angle-right text-warning"></i> About Us</a></li>
+            <li><a href="#products"><i class="fas fa-angle-right text-warning"></i> Products</a></li>
+            <li><a href="#contact"><i class="fas fa-angle-right text-warning"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Top Products -->
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Our Best Sellers</h5>
+          <ul class="footer-links">
+            <li><a href="#products"><i class="fas fa-pepper-hot text-danger"></i> Kolhapuri Kanda Lasun Masala</a></li>
+            <li><a href="#products"><i class="fas fa-pepper-hot text-danger"></i> Tambda Rassa Special Masala</a></li>
+            <li><a href="#products"><i class="fas fa-pepper-hot text-danger"></i> Royal Garam Masala (24 Spices)</a>
+            </li>
+            <li><a href="#products"><i class="fas fa-pepper-hot text-danger"></i> Pure Sankeshwari Chili Powder</a></li>
+            <li><a href="#products"><i class="fas fa-pepper-hot text-danger"></i> Kolhapuri Mirchi Thecha Jar</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter & Contact -->
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Stay Connected</h5>
+          <p class="small footer-text mb-3">Subscribe to get authentic Kolhapuri recipe tips & wholesale bulk discounts.
+          </p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control bg-dark text-white border-secondary small footer-input"
+              placeholder="Your email address">
+            <button class="btn btn-crimson" type="button"><i class="fas fa-paper-plane"></i></button>
+          </div>
+          <div class="small footer-text">
+            <i class="fas fa-shield-alt text-warning me-1"></i> FSSAI Lic. No: 11521034000189
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-md-start mb-2 mb-md-0 text-light">
+            © 2026 <strong class="text-white">Aishwarya Kolhapuri Masale Pvt. Ltd.</strong> All Rights Reserved.
+          </div>
+          <div class="col-md-6 text-md-end text-light fw-medium">
+            Designed by <span class="badge-gk-services">GK Services</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Call & WhatsApp Actions -->
+  <div class="floating-actions-container">
+    <a href="tel:+919876543210" class="floating-btn floating-call" title="Call Us Now">
+      <i class="fas fa-phone-alt"></i>
+    </a>
+    <a href="https://wa.me/919876543210?text=Hello%20Aishwarya%20Masale,%20I%20want%20to%20enquire%20about%20your%20products."
+      target="_blank" class="floating-btn floating-whatsapp" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" class="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container position-fixed bottom-0 start-0 p-3" style="z-index: 1100;"></div>
+
+  <!-- Quick View Modal -->
+  <div class="modal fade" id="quickViewModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-heading fw-bold" id="quickViewTitle">Product Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4" id="quickViewBody">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enquiry Modal -->
+  <div class="modal fade" id="enquiryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-heading fw-bold text-white"><i class="fas fa-envelope-open-text me-2"></i> Product
+            Enquiry</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <form id="modal-enquiry-form">
+            <div class="mb-3">
+              <label class="form-label small fw-semibold">Select Masala Product</label>
+              <input type="text" id="enquiry-product-select" class="form-control"
+                placeholder="All Products / General Enquiry">
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-semibold">Your Name *</label>
+              <input type="text" class="form-control" required placeholder="Enter full name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-semibold">Mobile / WhatsApp Number *</label>
+              <input type="tel" class="form-control" required placeholder="Enter 10-digit mobile number">
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-semibold">Quantity Required / Note</label>
+              <textarea class="form-control" rows="3"
+                placeholder="e.g. 5kg bulk pack or 10 retail packets..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-crimson w-100 py-2">
+              <i class="fas fa-paper-plane me-1"></i> Send Enquiry Request
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+    function filterByCategory(cat) {
+      const pills = document.querySelectorAll('.category-pill-btn');
+      pills.forEach(p => {
+        if (p.getAttribute('data-category') === cat) p.click();
+      });
+      document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
